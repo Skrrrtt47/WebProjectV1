@@ -1,0 +1,113 @@
+<html>
+  <head>
+    <title>
+      Sign up
+    </title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: black;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      .container {
+        padding: 16px;
+        background-color: white;
+        
+      }
+      input[type="text"],
+      input[type="email"],
+      input[type="password"] {
+        width: 100%;
+        height: 5px;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        outline: none;
+        background: whitesmoke;
+      }
+      input[type="text"]:focus,
+      input[type="email"]:focus,
+      input[type="password"]:focus {
+        background-color: #ddd;
+        outline: none;
+      }
+      .registerbtn {
+        background-color: turquoise;
+        color: black;
+        padding: 16px 20px;
+        margin: 8px;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+      }
+      .registerbtn:hover {
+        opacity: 1;
+      }
+      a {
+        color: blue;
+      }
+      .login{
+          background: whitesmoke;
+          text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <h1>Enrollment Form</h1>
+        <p>ACLC College of Calapan</p>
+        <hr />
+        <p>Fill in your Credentials</p>
+
+        <label>Last Name</label>
+        <input type="text" placeholder="Last Name" />
+        <br />
+        <label>First Name</label>
+        <input type="text" placeholder="First Name" />
+        <br />
+        <label>Middle Name</label>
+        <input type="text" placeholder="Middle Name" />
+        <br />
+        <hr>
+        <p>Address</p>
+        <label>Street Name or House Number</label>
+        <input type="text" placeholder="Street Name or House Number" />
+        <br />
+        <label>District</label>
+        <input type="text" placeholder="District" />
+        <br />
+        <label>City</label>
+        <input type="text" placeholder="City" />
+        <br />
+        <label>Region</label>
+        <input type="text" placeholder="Region" />
+        <br />
+        <label>Postal Code</label>
+        <input type="text" placeholder="Postal Code" />
+        <br />
+        <hr>
+        <p>Contact Details</p>
+        <label>Email</label>
+        <input type="email" placeholder="Email" />
+        <br />
+        <label>Contact Number</label>
+        <input type="text" placeholder="Contact Number" />
+        <br />
+        <hr>
+      
+
+          Make sure that all of the information provided is CORRECT
+
+        <button class="registerbtn">Proceed With Registration</button>
+      
+        <div class="login">
+        <p><a href="#">Existing Student?</a></p>
+      </form>
+    </div>
+</div>
+  </body>
+</html>
